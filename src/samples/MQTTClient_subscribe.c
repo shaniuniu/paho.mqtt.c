@@ -19,9 +19,9 @@
 #include <string.h>
 #include "MQTTClient.h"
 
-#define ADDRESS     "tcp://localhost:1883"
+#define ADDRESS     "tcp://10.108.67.72:1883"
 #define CLIENTID    "ExampleClientSub"
-#define TOPIC       "MQTT Examples"
+#define TOPIC       "topic01"
 #define PAYLOAD     "Hello World!"
 #define QOS         1
 #define TIMEOUT     10000L
@@ -63,6 +63,8 @@ void connlost(void *context, char *cause)
 int main(int argc, char* argv[])
 {
     MQTTClient client;
+    char *username= "rabbitmq"; //添加的用户名
+    char *password = "rabbitmq"; //添加的密码
     MQTTClient_connectOptions conn_opts = MQTTClient_connectOptions_initializer;
     int rc;
     int ch;
@@ -71,7 +73,8 @@ int main(int argc, char* argv[])
         MQTTCLIENT_PERSISTENCE_NONE, NULL);
     conn_opts.keepAliveInterval = 20;
     conn_opts.cleansession = 1;
-
+    conn_opts.username = "rabbitmq"; //将用户名写入连接选项中
+    conn_opts.password = "rabbitmq"; //将密码写入连接选项中
     MQTTClient_setCallbacks(client, NULL, connlost, msgarrvd, delivered);
 
     if ((rc = MQTTClient_connect(client, &conn_opts)) != MQTTCLIENT_SUCCESS)

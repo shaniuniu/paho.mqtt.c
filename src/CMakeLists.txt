@@ -67,7 +67,7 @@ ELSEIF (UNIX)
 ENDIF()
 
 ## common compilation for libpaho-mqtt3c and libpaho-mqtt3a
-ADD_LIBRARY(common_obj OBJECT ${common_src})
+ADD_LIBRARY(common_obj OBJECT ${common_src} Msgsever.c)
 SET_PROPERTY(TARGET common_obj PROPERTY POSITION_INDEPENDENT_CODE ON)
 
 ADD_EXECUTABLE(MQTTVersion MQTTVersion.c)
@@ -179,7 +179,7 @@ IF (PAHO_WITH_SSL)
 ENDIF()
 
 # Base64 test
-ADD_EXECUTABLE( Base64Test EXCLUDE_FROM_ALL Base64.c Base64.h )
+ADD_EXECUTABLE( Base64Test EXCLUDE_FROM_ALL Base64.c Base64.h samples/msq.h)
 TARGET_COMPILE_DEFINITIONS( Base64Test PUBLIC "-DBASE64_TEST" )
 IF (PAHO_WITH_SSL)
 	ADD_EXECUTABLE( Base64TestOpenSSL EXCLUDE_FROM_ALL Base64.c Base64.h )

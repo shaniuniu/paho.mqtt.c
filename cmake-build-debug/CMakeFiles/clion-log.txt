@@ -1,0 +1,7 @@
+/home/syy/clion-2018.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/syy/paho.mqtt.c
+-- CMake version: 3.12.2
+-- CMake system name: Linux
+-- Timestamp is 2018-10-11T01:42:10Z
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/syy/paho.mqtt.c/cmake-build-debug

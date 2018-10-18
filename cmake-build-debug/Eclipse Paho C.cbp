@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Eclipse Paho C"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package_source">
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package">
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="paho-mqtt3a">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/src/libpaho-mqtt3a.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/src/."/>
+					<Add directory="/home/syy/paho.mqtt.c/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 paho-mqtt3a"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="paho-mqtt3a/fast">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/src/libpaho-mqtt3a.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/src/."/>
+					<Add directory="/home/syy/paho.mqtt.c/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 paho-mqtt3a/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="paho-mqtt3c">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/src/libpaho-mqtt3c.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/src/."/>
+					<Add directory="/home/syy/paho.mqtt.c/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 paho-mqtt3c"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="paho-mqtt3c/fast">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/src/libpaho-mqtt3c.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/src/."/>
+					<Add directory="/home/syy/paho.mqtt.c/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 paho-mqtt3c/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MQTTVersion">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/src/MQTTVersion" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/src/."/>
+					<Add directory="/home/syy/paho.mqtt.c/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 MQTTVersion"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MQTTVersion/fast">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/src/MQTTVersion" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/src/."/>
+					<Add directory="/home/syy/paho.mqtt.c/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 MQTTVersion/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="common_obj">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/src/CMakeFiles/common_obj.dir/common_obj.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/src/."/>
+					<Add directory="/home/syy/paho.mqtt.c/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 common_obj"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="common_obj/fast">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/src/CMakeFiles/common_obj.dir/common_obj.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/src/."/>
+					<Add directory="/home/syy/paho.mqtt.c/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 common_obj/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Base64Test">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/src/Base64Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBASE64_TEST"/>
+					<Add directory="/home/syy/paho.mqtt.c/src/."/>
+					<Add directory="/home/syy/paho.mqtt.c/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Base64Test"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Base64Test/fast">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/src/Base64Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBASE64_TEST"/>
+					<Add directory="/home/syy/paho.mqtt.c/src/."/>
+					<Add directory="/home/syy/paho.mqtt.c/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Base64Test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sha1Test">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/src/Sha1Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSHA1_TEST"/>
+					<Add directory="/home/syy/paho.mqtt.c/src/."/>
+					<Add directory="/home/syy/paho.mqtt.c/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Sha1Test"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sha1Test/fast">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/src/Sha1Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSHA1_TEST"/>
+					<Add directory="/home/syy/paho.mqtt.c/src/."/>
+					<Add directory="/home/syy/paho.mqtt.c/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Sha1Test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test10">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/test/test10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/test"/>
+					<Add directory="/home/syy/paho.mqtt.c/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test10"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test10/fast">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/test/test10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/test"/>
+					<Add directory="/home/syy/paho.mqtt.c/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test10/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_issue373">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/test/test_issue373" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/test"/>
+					<Add directory="/home/syy/paho.mqtt.c/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test_issue373"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_issue373/fast">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/test/test_issue373" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/test"/>
+					<Add directory="/home/syy/paho.mqtt.c/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test_issue373/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test2">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/test/test2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/test"/>
+					<Add directory="/home/syy/paho.mqtt.c/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test2"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test2/fast">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/test/test2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/test"/>
+					<Add directory="/home/syy/paho.mqtt.c/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test2/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test6">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/test/test6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/test"/>
+					<Add directory="/home/syy/paho.mqtt.c/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test6"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test6/fast">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/test/test6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/test"/>
+					<Add directory="/home/syy/paho.mqtt.c/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test6/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test15">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/test/test15" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/test"/>
+					<Add directory="/home/syy/paho.mqtt.c/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test15"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test15/fast">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/test/test15" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/test"/>
+					<Add directory="/home/syy/paho.mqtt.c/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test15/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test1">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/test/test1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/test"/>
+					<Add directory="/home/syy/paho.mqtt.c/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test1"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test1/fast">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/test/test1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/test"/>
+					<Add directory="/home/syy/paho.mqtt.c/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test1/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test9">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/test/test9" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/test"/>
+					<Add directory="/home/syy/paho.mqtt.c/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test9"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test9/fast">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/test/test9" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/test"/>
+					<Add directory="/home/syy/paho.mqtt.c/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test9/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/test/thread" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNOSTACKTRACE"/>
+					<Add option="-DNOLOG_MESSAGES"/>
+					<Add directory="/home/syy/paho.mqtt.c/test"/>
+					<Add directory="/home/syy/paho.mqtt.c/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 thread"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread/fast">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/test/thread" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNOSTACKTRACE"/>
+					<Add option="-DNOLOG_MESSAGES"/>
+					<Add directory="/home/syy/paho.mqtt.c/test"/>
+					<Add directory="/home/syy/paho.mqtt.c/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 thread/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test4">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/test/test4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/test"/>
+					<Add directory="/home/syy/paho.mqtt.c/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test4"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test4/fast">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/test/test4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/test"/>
+					<Add directory="/home/syy/paho.mqtt.c/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test4/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test45">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/test/test45" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/test"/>
+					<Add directory="/home/syy/paho.mqtt.c/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test45"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test45/fast">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/test/test45" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/test"/>
+					<Add directory="/home/syy/paho.mqtt.c/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test45/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test8">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/test/test8" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/test"/>
+					<Add directory="/home/syy/paho.mqtt.c/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test8"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test8/fast">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/test/test8" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/test"/>
+					<Add directory="/home/syy/paho.mqtt.c/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test8/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test11">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/test/test11" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/test"/>
+					<Add directory="/home/syy/paho.mqtt.c/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test11"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test11/fast">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/test/test11" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/test"/>
+					<Add directory="/home/syy/paho.mqtt.c/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test11/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test95">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/test/test95" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/test"/>
+					<Add directory="/home/syy/paho.mqtt.c/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test95"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test95/fast">
+				<Option output="/home/syy/paho.mqtt.c/cmake-build-debug/test/test95" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/syy/paho.mqtt.c/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/syy/paho.mqtt.c/test"/>
+					<Add directory="/home/syy/paho.mqtt.c/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test95/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/syy/paho.mqtt.c/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/syy/paho.mqtt.c/cmake-build-debug/src/CMakeFiles/common_obj.dir/Base64.c.o">
+			<Option target="paho-mqtt3a"/>
+			<Option target="paho-mqtt3c"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/cmake-build-debug/src/CMakeFiles/common_obj.dir/Clients.c.o">
+			<Option target="paho-mqtt3a"/>
+			<Option target="paho-mqtt3c"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/cmake-build-debug/src/CMakeFiles/common_obj.dir/Heap.c.o">
+			<Option target="paho-mqtt3a"/>
+			<Option target="paho-mqtt3c"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/cmake-build-debug/src/CMakeFiles/common_obj.dir/LinkedList.c.o">
+			<Option target="paho-mqtt3a"/>
+			<Option target="paho-mqtt3c"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/cmake-build-debug/src/CMakeFiles/common_obj.dir/Log.c.o">
+			<Option target="paho-mqtt3a"/>
+			<Option target="paho-mqtt3c"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/cmake-build-debug/src/CMakeFiles/common_obj.dir/MQTTPacket.c.o">
+			<Option target="paho-mqtt3a"/>
+			<Option target="paho-mqtt3c"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/cmake-build-debug/src/CMakeFiles/common_obj.dir/MQTTPacketOut.c.o">
+			<Option target="paho-mqtt3a"/>
+			<Option target="paho-mqtt3c"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/cmake-build-debug/src/CMakeFiles/common_obj.dir/MQTTPersistence.c.o">
+			<Option target="paho-mqtt3a"/>
+			<Option target="paho-mqtt3c"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/cmake-build-debug/src/CMakeFiles/common_obj.dir/MQTTPersistenceDefault.c.o">
+			<Option target="paho-mqtt3a"/>
+			<Option target="paho-mqtt3c"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/cmake-build-debug/src/CMakeFiles/common_obj.dir/MQTTProperties.c.o">
+			<Option target="paho-mqtt3a"/>
+			<Option target="paho-mqtt3c"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/cmake-build-debug/src/CMakeFiles/common_obj.dir/MQTTProtocolClient.c.o">
+			<Option target="paho-mqtt3a"/>
+			<Option target="paho-mqtt3c"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/cmake-build-debug/src/CMakeFiles/common_obj.dir/MQTTProtocolOut.c.o">
+			<Option target="paho-mqtt3a"/>
+			<Option target="paho-mqtt3c"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/cmake-build-debug/src/CMakeFiles/common_obj.dir/MQTTReasonCodes.c.o">
+			<Option target="paho-mqtt3a"/>
+			<Option target="paho-mqtt3c"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/cmake-build-debug/src/CMakeFiles/common_obj.dir/Messages.c.o">
+			<Option target="paho-mqtt3a"/>
+			<Option target="paho-mqtt3c"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/cmake-build-debug/src/CMakeFiles/common_obj.dir/Msgsever.c.o">
+			<Option target="paho-mqtt3a"/>
+			<Option target="paho-mqtt3c"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/cmake-build-debug/src/CMakeFiles/common_obj.dir/SHA1.c.o">
+			<Option target="paho-mqtt3a"/>
+			<Option target="paho-mqtt3c"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/cmake-build-debug/src/CMakeFiles/common_obj.dir/Socket.c.o">
+			<Option target="paho-mqtt3a"/>
+			<Option target="paho-mqtt3c"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/cmake-build-debug/src/CMakeFiles/common_obj.dir/SocketBuffer.c.o">
+			<Option target="paho-mqtt3a"/>
+			<Option target="paho-mqtt3c"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/cmake-build-debug/src/CMakeFiles/common_obj.dir/StackTrace.c.o">
+			<Option target="paho-mqtt3a"/>
+			<Option target="paho-mqtt3c"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/cmake-build-debug/src/CMakeFiles/common_obj.dir/Thread.c.o">
+			<Option target="paho-mqtt3a"/>
+			<Option target="paho-mqtt3c"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/cmake-build-debug/src/CMakeFiles/common_obj.dir/Tree.c.o">
+			<Option target="paho-mqtt3a"/>
+			<Option target="paho-mqtt3c"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/cmake-build-debug/src/CMakeFiles/common_obj.dir/WebSocket.c.o">
+			<Option target="paho-mqtt3a"/>
+			<Option target="paho-mqtt3c"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/cmake-build-debug/src/CMakeFiles/common_obj.dir/utf-8.c.o">
+			<Option target="paho-mqtt3a"/>
+			<Option target="paho-mqtt3c"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/Base64.c">
+			<Option target="common_obj"/>
+			<Option target="Base64Test"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/Base64.h">
+			<Option target="Base64Test"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/Clients.c">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/Clients.h">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/Heap.c">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/Heap.h">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/LinkedList.c">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/LinkedList.h">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/Log.c">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/Log.h">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/MQTTAsync.c">
+			<Option target="paho-mqtt3a"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/MQTTAsync.h">
+			<Option target="paho-mqtt3a"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/MQTTClient.c">
+			<Option target="paho-mqtt3c"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/MQTTClient.h">
+			<Option target="paho-mqtt3c"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/MQTTPacket.c">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/MQTTPacket.h">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/MQTTPacketOut.c">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/MQTTPacketOut.h">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/MQTTPersistence.c">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/MQTTPersistence.h">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/MQTTPersistenceDefault.c">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/MQTTPersistenceDefault.h">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/MQTTProperties.c">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/MQTTProperties.h">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/MQTTProtocolClient.c">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/MQTTProtocolClient.h">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/MQTTProtocolOut.c">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/MQTTProtocolOut.h">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/MQTTReasonCodes.c">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/MQTTReasonCodes.h">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/MQTTVersion.c">
+			<Option target="MQTTVersion"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/Messages.c">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/Messages.h">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/Msgsever.c">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/SHA1.c">
+			<Option target="common_obj"/>
+			<Option target="Sha1Test"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/SHA1.h">
+			<Option target="Sha1Test"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/Socket.c">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/Socket.h">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/SocketBuffer.c">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/SocketBuffer.h">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/StackTrace.c">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/StackTrace.h">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/Thread.c">
+			<Option target="common_obj"/>
+			<Option target="thread"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/Thread.h">
+			<Option target="common_obj"/>
+			<Option target="thread"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/Tree.c">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/Tree.h">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/WebSocket.c">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/WebSocket.h">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/samples/msq.h">
+			<Option target="Base64Test"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/utf-8.c">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/utf-8.h">
+			<Option target="common_obj"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/test/test1.c">
+			<Option target="test1"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/test/test10.c">
+			<Option target="test10"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/test/test11.c">
+			<Option target="test11"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/test/test15.c">
+			<Option target="test15"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/test/test2.c">
+			<Option target="test2"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/test/test4.c">
+			<Option target="test4"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/test/test45.c">
+			<Option target="test45"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/test/test6.c">
+			<Option target="test6"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/test/test8.c">
+			<Option target="test8"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/test/test9.c">
+			<Option target="test9"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/test/test95.c">
+			<Option target="test95"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/test/test_issue373.c">
+			<Option target="test_issue373"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/test/thread.c">
+			<Option target="thread"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/src/VersionInfo.h.in">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/syy/paho.mqtt.c/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
