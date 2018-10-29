@@ -23,6 +23,7 @@
 # include <sys/ipc.h>
 # include <sys/msg.h>
 # include <sys/types.h>
+#include "msq.h"
 #define ADDRESS     "tcp://10.108.67.72:1883"
 #define CLIENTID    "ExampleClientPub"
 #define TOPIC       "topic01"
