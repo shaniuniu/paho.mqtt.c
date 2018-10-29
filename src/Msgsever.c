@@ -9,7 +9,6 @@
 # include <sys/msg.h>
 # include <sys/types.h>
 # define MAX_MSG_LEN 1024
-# define MSQ_KEY 21012
 typedef struct MSGQUEUE
 {
     long msgType;
@@ -18,19 +17,20 @@ typedef struct MSGQUEUE
 }Msg;
 int main(void)
 {
+    char *msgpath="/home/ubuntu/h17/ipc/";
+    key_t key=ftok(msgpath,3);
     int ret;
     int msqid;
     Msg serverMsg;
-
     /*msgget*/
-    msqid = msgget((key_t)MSQ_KEY, 0660|IPC_CREAT|IPC_EXCL);
+    msqid = msgget((key_t)key, 0666|IPC_CREAT);
     if( msqid == -1)
     {
         if(errno == EEXIST)
         {
             /*Message queue has aleardy existed */
             printf("msgget() warning: %s\n", strerror(errno));
-            msqid = msgget((key_t)MSQ_KEY, 0660|IPC_CREAT); /*access the mq*/
+            msqid = msgget((key_t)key, 0666|IPC_CREAT); /*access the mq*/
             if(msqid == -1)
             {
                 printf("msgget() error: %s\n", strerror(errno));
@@ -58,7 +58,7 @@ int main(void)
 
         /*input*/
         printf("serverMsg.msgText: ");
-        if(fgets(serverMsg.msgText, MAX_MSG_LEN, stdin) == NULL)
+        if(fgets(serverMsg.msgText, MAX_MSG_LEN,stdin)== NULL)
         {
             printf("gets() encounters an error or EOF\n");
             fflush(stdin);
@@ -76,7 +76,7 @@ int main(void)
         }
 
         /*exit*/
-        if(memcmp(serverMsg.msgText, "exit", 4) == 0)
+        if(memcmp(serverMsg.msgText, "end", 3) == 0)
         {
             printf("over and exit\n");
             break;
