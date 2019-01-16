@@ -33,7 +33,7 @@
 #define PASSWORD    "rabbitmq"
 int main(void)
     {
-        char *msgpath="/home/ubuntu/h17/ipc/";
+        char *msgpath="/home/aaa/h17/ipc/";
         key_t key=ftok(msgpath,3);
         int ret;
         int msqid;
